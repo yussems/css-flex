@@ -1,0 +1,166 @@
+body * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.box {
+  display: flex;
+  height: 100px;
+  color: aqua;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: red;
+}
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+li a {
+  padding: 5px;
+  margin: 0 15px;
+  color: bisque;
+}
+
+.header {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: blueviolet;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: gray;
+  margin-left: 15px;
+  flex-shrink: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.navbar .left {
+  display: flex;
+  margin: 10px;
+}
+.right {
+  display: flex;
+}
+.right button {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  margin-right: 15px;
+  border-radius: 100%;
+  border: 1px solid bisque;
+  background-color: blueviolet;
+}
+.active {
+  border: 1px solid bisque;
+  background-color: blueviolet;
+  color: bisque;
+  padding: 10px;
+  margin-right: 15px;
+}
+.deneme {
+  background-color: aqua;
+  height: 300px;
+}
+.hat {
+  height: 100px;
+}
+.hehe {
+  background-color: gray;
+  margin: 0 10px;
+}
+
+.timer {
+  margin-top: 20px;
+  background-color: aquamarine;
+  position: relative;
+}
+.absolute {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.player-name {
+  display: flex;
+  margin-right: 15px;
+}
+.player-name div {
+  margin: 10px;
+  border: 1px solid gray;
+}
+.sablon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.play-üst button {
+  width: 40px;
+  height: 40px;
+  margin: 0 30px;
+}
+.time {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.time .sol,
+.sag {
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1f222c;
+  width: 500px;
+  height: 500px;
+  padding: 30px;
+  margin-top: 20px;
+}
+.card {
+  margin: 10px;
+  position: relative;
+  width: calc(50% - 20px);
+  height: 200px;
+  border-radius: 10px;
+  background-color: #473c5a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #86e6fa;
+}
+.icon1 {
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: currentColor;
+}
+.check {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: crimson;
+}
